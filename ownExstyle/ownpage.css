@@ -1,0 +1,104 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.head-container {
+  height: 40px;
+  width: 1350px;
+  margin-right: 2px;
+  background-color: green;
+}
+.logo-site {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  vertical-align: top;
+  display: inline-block;
+  border-radius: 10px;
+}
+.dano {
+  display: inline-block;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+.dano-logo {
+  height: 40px;
+  width: 270px;
+  text-align: center;
+  display: inline-block;
+  background-color: black;
+  color: white;
+}
+.search-bar {
+  vertical-align: top;
+  height: 30px;
+  width: 430px;
+  margin-top: 4px;
+  margin-left: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.30);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.jordan-prof {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  vertical-align: top;
+  display: inline-block;
+  border-radius: 20px;
+  margin-left: 5px;
+}
+.favorite {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 20px;
+  row-gap: 30px;
+  column-gap: 20px;
+}
+.rises-pic {
+  width: 100%;
+  border-radius: 20px;
+}
+.rises-info {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  margin-top: 10px;
+}
+.rises-prof {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+.rises-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+  color: black;
+  vertical-align: top;
+}
+.rises-title:hover {
+  color: green;
+}
+.rises-title:active {
+  opacity: 0.3;
+}
+.rises-author {
+  margin-left: 20px;
+  font-size: 13px;
+  margin-top: 5px;
+  color: gray;
+}
+.rises-date {
+  margin-left: 20px;
+  font-size: 13px;
+  margin-top: 5px;
+  color: gray;
+}

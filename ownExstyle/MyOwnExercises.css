@@ -1,0 +1,188 @@
+.facebook {
+  width: 200px;
+  margin-left: 115px;
+  display: block;
+  margin-bottom: 0;
+  object-fit: cover;
+}
+.recent {
+  margin-left: 120px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  margin-right: 400px;
+  
+}
+.email {
+  font-size: 20px;
+  width: 300px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: gray;
+  margin-bottom: 0;
+}
+.pass {
+  margin-left: 685px;
+  margin-top: 0;
+  font-size: 20px;
+  width: 300px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: gray;
+  display: inline-block;
+}
+.click {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 120px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
+.jas {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  display: inline-block;
+  margin-left: 120px;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.jas:hover {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.mama {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.mama:hover {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.papa {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.papa:hover {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.login {
+  vertical-align: top;
+  margin-left: 245px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-size: 20px;
+  width: 330px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(39, 39, 255);
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(39, 39, 255);
+  cursor: pointer;
+}
+.login:hover {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.login:active {
+  opacity: 0.3;
+}
+.forgot {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 455px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgb(39, 39, 255);
+  cursor: pointer;
+}
+.forgot:hover {
+  text-decoration: underline;
+}
+.jumar {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  display: inline-block;
+  margin-left: 120px;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.jumar:hover {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.dano {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.dano:hover {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.create {
+  vertical-align: middle;
+  margin-left: 750px;
+  margin-bottom: 0;
+  margin-top: 20;
+  font-size: 10px;
+  width: 200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(29, 200, 29);
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(29, 200, 29);
+  cursor: pointer;
+}
+.create:hover {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.create:active {
+  opacity: 0.3;
+}
