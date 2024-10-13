@@ -25,12 +25,11 @@
       max-width: 600px;
       margin: 20px 0;
     }
-    .todo, .result_cont-display {
+    .todo, .result_cont-display{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr auto;
       gap: 10px;
       align-items: center;
-      width: 100%;
     }
     input {
       padding: 10px;
@@ -68,51 +67,63 @@
       color: red;
       margin: 10px 0;
     }
-    .name {
+    .name{
       color: black;
     }
-    .time {
+    .time{
       color: #e16162;
     }
-    .date, .input {
+    .date, .input{
       color: #fdaa2c;
     }
-
-    /* For mobile devices */
-    @media only screen and (max-width: 600px) {
+    @media (max-width: 600px) {
       .todo {
+          grid-template-columns: 1fr;
+      }
+    }
+    /* For small mobile devices */
+    @media only screen and (max-width: 480px) {
+      /* Styles for mobile */
+      .result_cont-display, .todo{
         grid-template-columns: 1fr;
       }
     }
 
     /* For tablets */
-    @media only screen and (min-width: 601px) and (max-width: 1024px) {
-      .todo {
-        grid-template-columns: 1fr 1fr;
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      /* Styles for tablets */
+      .result_cont-display, .todo{
+        grid-template-columns: 2 1fr;
       }
     }
 
     /* For laptops */
     @media only screen and (min-width: 1025px) and (max-width: 1366px) {
-      .todo {
-        grid-template-columns: 1fr 1fr 1fr;
+      /* Styles for laptops */
+      .result_cont-display, .todo{
+        grid-template-columns: 3 1fr;
       }
     }
 
     /* For desktops */
     @media only screen and (min-width: 1367px) {
-      .todo {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+      /* Styles for desktops */
+      .result_cont-display, .todo{
+        grid-template-columns: 4 1fr 1fr 1fr;
       }
     }
+
   </style>
 </head>
 <body>
   <h1 class="hehe">To-do list</h1>
   <div class="todo">
-    <input placeholder="To do..." class="js-name-input name input" onkeydown="inputEvent(event);">
+    <input placeholder="To do..."
+    class="js-name-input name input"
+    onkeydown="inputEvent(event);">
     <input class="js-dueDate-input duedate" type="date">
-    <input class="js-dueTime-input duedate" type="time" placeholder="Insert time">
+    <input class="js-dueTime-input duedate" type="time"
+    placeholder="Insert time">
     <button class="but" onclick="addTodo();">Add</button>
   </div>
   
