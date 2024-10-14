@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0f0e17;
+}
+
+h1 {
+  color: #fffffe;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+div {
+  display: grid;
+  grid-template-columns: repeat(2, 100px); /* 2 columns of 100px each */
+  grid-template-rows: repeat(2, 50px);    /* 2 rows of 50px each */
+  gap: 10px;  /* Space between grid items */
+}
+
+button {
+  background-color: #ff8906;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  border: none;
+  color: #fffffe; /* Text color */
+  font-size: 13px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: transform 0.3s;
+}
+
+button:hover {
+  background-color: #e07b00; /* Darken button color on hover */
+  transform: scale(1.2);
+}
+.css-balance{
+  font-size: 40px;
+  color: #e53170;
+}

@@ -1,0 +1,27 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0f0e17;
+}
+h1{
+  color: #ff8906;
+  font-weight: bold;
+}
+.css-input-pin {
+  font-size: 15px;
+  color: #fffffe; /* Ensure this color contrasts well with the background */
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333; /* Ensure background color doesn't blend with text */
+}
+
+.css-invalid{
+  font-size: 10px;
+  color: red;
+}

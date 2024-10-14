@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WITHDRAW</title>
+  <link rel="stylesheet" href="withdraw.css">
+</head>
+<body>
+  <h1>Your current balance is: </h1>
+  <p class="css-balance js-balance"></p>
+  <input class="css-enter-amount
+  js-input-amount" 
+  type="text" 
+  placeholder="Enter any amount..."
+  onkeydown="inputAmount(event);">
+  <button onclick="enterAmount();">Submit</button>
+  <button class="js-back"
+  onclick="window.location.href = '../after-pin/after-pin.html';">Back</button>
+  <p class="css-error-amount js-error"></p>
+  <p class="css-correct-amount js-correct"></p>
+  
+
+
+  <script src="../home-page/home-atm.js"></script>
+</body>
+</html>
